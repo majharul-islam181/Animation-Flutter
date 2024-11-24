@@ -1,4 +1,5 @@
 import 'package:animation_flutter/Lecture01.dart';
+import 'package:animation_flutter/Lecture02.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -20,7 +21,7 @@ class App extends StatelessWidget {
       themeMode: ThemeMode.dark,
       debugShowCheckedModeBanner: false,
       debugShowMaterialGrid: false,
-      home: const Lecture01(),
+      home: const Lecture02(),
     );
   }
 }
